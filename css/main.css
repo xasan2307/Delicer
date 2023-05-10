@@ -1079,7 +1079,17 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.hover\:bg-home:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 86 52 / var(--tw-bg-opacity));
+}
+
 .hover\:text-home:hover {
   --tw-text-opacity: 1;
   color: rgb(255 86 52 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
